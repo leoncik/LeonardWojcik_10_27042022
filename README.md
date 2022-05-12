@@ -2,7 +2,7 @@
 
 Project carried out as part of the Front-End Web Development Career Path of OpenClassrooms.
 
-Note: since this project's content is mainly written in French I will keep this README in French for more convenience. Feel free to translate it to your language with a translator if you want or you can learn French to read It natively (this may require some years).
+Note: since this project's content is mainly written in French I will keep this README in French for more convenience. You can translate it to your language with a translator if needed or you can learn French to read It natively (this may require some years).
 
 ## Table des matières
 - [Présentation du projet](#présentation-du-projet)
@@ -27,15 +27,15 @@ l’utilisateur.
 
 ### Diagrammes de cas d’usage
 
-Pour consulter les diagrammes de cas d’usage, cliquez ici.
+Pour consulter les diagrammes de cas d’utilisation, cliquez [ici](/Livrables/Diagrammes-cas-utilistion.pdf).
 
 ### User stories
 
-Pour consulter les user stories, cliquez ici.
+Pour consulter les user stories, cliquez [ici](/Livrables/User-stories.pdf).
 
 ### Maquette du site
 
-La maquette du site a été réalisée avec Figma. Vous pouvez soit la visionner sur Figma en cliquant [ici](https://www.figma.com/file/z4LlvhdOAwSY3WpdaX9jlp/Wojcik_L%C3%A9onard_3_maquette_042022), soit en consultant la version PDF de celle-ci en cliquant ici.
+La maquette du site a été réalisée avec Figma. Vous pouvez soit la visionner sur Figma en cliquant [ici](https://www.figma.com/file/z4LlvhdOAwSY3WpdaX9jlp/Wojcik_L%C3%A9onard_3_maquette_042022), soit en consultant la version PDF de celle-ci en cliquant [ici](/Livrables/Maquette.pdf).
 
 ### Tableau Kanban
 
