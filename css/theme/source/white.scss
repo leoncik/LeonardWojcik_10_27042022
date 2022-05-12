@@ -13,6 +13,7 @@
 
 // Include theme-specific fonts
 @import url(./fonts/source-sans-pro/source-sans-pro.css);
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
 
 
 // Override theme settings (see ../template/settings.scss)
@@ -22,8 +23,8 @@ $mainColor: #222;
 $headingColor: #222;
 
 $mainFontSize: 42px;
-$mainFont: 'Source Sans Pro', Helvetica, sans-serif;
-$headingFont: 'Source Sans Pro', Helvetica, sans-serif;
+$mainFont: 'Atkinson Hyperlegible', Helvetica, sans-serif;
+$headingFont: 'Atkinson Hyperlegible', Helvetica, sans-serif;
 $headingTextShadow: none;
 $headingLetterSpacing: normal;
 $headingTextTransform: uppercase;
@@ -44,3 +45,20 @@ $heading4Size: 1.0em;
 // Theme template ------------------------------
 @import "../template/theme";
 // ---------------------------------------------
+
+
+// Custom styles --------------------------------
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 500px;
+}
+.container-2 {
+    display: flex;
+    gap: 20px;
+}
+// .col{
+//     flex: 1;
+// }

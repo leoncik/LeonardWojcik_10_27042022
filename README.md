@@ -1,19 +1,6 @@
 # Learn@Home
 
-Project carried out as part of the Front-End Web Development Career Path of OpenClassrooms.
+Support de présentation pour le projet **Learn@Home**.
+Celui-ci a été réalisé avec l'outil [Reveal.js](https://github.com/hakimel/reveal.js).
 
-Note: since this project's content is mainly written in French I will keep this README in French for more convenience. Feel free to translate it to your language with a translator if you want or you can learn French to read It natively (this may require some years).
-
-## Table des matières
-
-- [Description](#description)
-
-## Description
-
-En cours de rédaction.
-
-## Présentation
-
-`yarn start` pour lancer le serveur et travailleur sur le fichier de présentation.
-
-[⬆ Retour en haut](#learnhome)
+Pour lancer le serveur et travailler sur la présentation, lancer la commande `yarn start` (ne pas oublier d'installer préalablement les dépendances avec `yarn install`).
