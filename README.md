@@ -6,8 +6,10 @@ Note: since this project's content is mainly written in French I will keep this 
 
 ## Table des matières
 - [Présentation du projet](#présentation-du-projet)
+  - [Description](#description)
+  - [Méthodologie](#méthodologie)
 - [Présentation des livrables](#présentation-des-livrables)
-  - [Diagrammes de cas d’usage](#diagrammes-de-cas-dusage)
+  - [Diagrammes de cas d'utilisation](#diagrammes-de-cas-dutilisation)
   - [User stories](#user-stories)
   - [Maquette du site](#maquette-du-site)
   - [Tableau Kanban](#tableau-kanban)
@@ -35,7 +37,7 @@ La réalisation de ce projet suit la méthodologie de gestion de projet dite "[A
 
 ## Présentation des livrables
 
-### Diagrammes de cas d’usage
+### Diagrammes de cas d’utilisation
 
 Pour consulter les diagrammes de cas d’utilisation, cliquez [ici](https://raw.githubusercontent.com/leoncik/LeonardWojcik_10_27042022/main/Livrables/Diagrammes-cas-utilistion.pdf).
 
