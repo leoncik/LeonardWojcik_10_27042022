@@ -55,10 +55,10 @@ $heading4Size: 1.0em;
     justify-content: center;
     gap: 500px;
 }
-.container-2 {
-    display: flex;
-    gap: 20px;
-}
 // .col{
 //     flex: 1;
 // }
+.container-small-gap {
+    display: flex;
+    gap: 20px;
+}

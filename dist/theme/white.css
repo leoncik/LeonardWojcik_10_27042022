@@ -362,7 +362,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   gap: 500px;
 }
 
-.container-2 {
+.container-small-gap {
   display: flex;
   gap: 20px;
 }

@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="fr">
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -23,18 +23,82 @@
 				<section>
 					<h3>Sommaire</h3>
 					<ul>
-						<li><a href="#maquette">Maquette</a></li>
-						<li><a href="#user-stories">User stories</a></li>
+						<li><a href="#summary">Résumé du projet</a></li>
+						<li><a href="#maquette">Présentation de la maquette</a></li>
 						<li><a href="#diagrammes">Diagrammes de cas d’usage</a></li>
+						<li><a href="#user-stories">Revue des user stories</a></li>
 						<li><a href="#kanban">Tableau Kanban</a></li>
 					</ul>
 				</section>
 
+				<!-- RÉSUMÉ DU PROJET -->
+				<section id="summary">
+					<h1>Résumé du projet</h1>
+				</section>
+
+				<section>
+
+					<section data-auto-animate>
+						<div class="container">
+							<div class="left">
+								<img src="images/eleve.png" alt="Élève">
+							</div>
+							<div class="right">
+								<img src="images/prof.png" alt="Professeur">
+							</div>
+						</div>
+					</section>
+					<section data-auto-animate>
+						<div class="container">
+							<div class="left">
+								<img src="images/eleve.png" alt="Élève">
+							</div>
+							<div class="center">
+								<img src="images/sms.png" alt="sms" width="400">
+							</div>
+							<div class="right">
+								<img src="images/prof.png" alt="Professeur">
+							</div>
+						</div>
+					</section>
+					<section data-auto-animate>
+						<div class="container">
+							<div class="left">
+								<img src="images/eleve.png" alt="Élève">
+							</div>
+							<div class="center">
+								<img src="images/web-app.png" alt="web-app" width="250">
+							</div>
+							<div class="right">
+								<img src="images/prof.png" alt="Professeur">
+							</div>
+						</div>
+					</section>
+					<section data-auto-animate>
+						<div class="container">
+							<div class="left">
+								<img src="images/web-app.png" alt="Élève" width="300">
+							</div>
+							<div class="right">
+								<ul class="fragment">
+									<li>Page de connexion</li>
+									<li>Page de tableau de bord</li>
+									<li>Page d'interface de chat</li>
+									<li>Page de calendrier</li>
+									<li>Page de gestion des tâches</li>
+								</ul>
+							</div>
+						</div>
+					</section>
+				</section>
+
+				<!-- MAQUETTE -->
 				<section id="maquette">
 					<h1>Maquette</h1>
 					<p><a href="https://www.figma.com/file/z4LlvhdOAwSY3WpdaX9jlp/Wojcik_L%C3%A9onard_3_maquette_042022" target="_blank">(consulter sur Figma)</a></p>
 				</section>
 
+				<!-- PAGE CONNEXION/INSCRIPTION -->
 				<section>
 
 					<section data-auto-animate>
@@ -43,14 +107,14 @@
 
 					<section data-auto-animate>
 						<h2>Page de connexion</h2>
-						<img height="600px" src="images/img-7.png" alt="">
+						<img height="600" src="images/img-7.png" alt="">
 					</section>
 
 					<section data-auto-animate>
 						<h2>Page de connexion</h2>
 						<div class="container">
 							<div class="col">
-								<img height="600px" src="images/img-7.png" alt="">
+								<img height="600" src="images/img-7.png" alt="">
 							</div>
 							<div class="col">
 								<p>Fonctionnalités :</p>
@@ -64,6 +128,7 @@
 					</section>
 				</section>
 
+				<!-- PAGE TABLEAU DE BORD -->
 				<section>
 					<section>
 						<h2>Tableau de bord</h2>
@@ -71,14 +136,14 @@
 					<section data-auto-animate>
 						<div>
 							<div>
-								<img height="700px" src="images/img-10.png" alt="">
+								<img height="700" src="images/img-10.png" alt="">
 							</div>
 						</div>
 					</section>
 					<section data-auto-animate>
-						<div class="container-2">
+						<div class="container-small-gap">
 							<div>
-								<img width="700px" src="images/img-10.png" alt="">
+								<img width="700" src="images/img-10.png" alt="">
 							</div>
 							<div class="col">
 								<p>Fonctionnalités :</p>
@@ -92,12 +157,204 @@
 					</section>
 				</section>
 
-				<section id="user-stories">
-					<h1>User stories</h1>
+				<!-- PAGE DE CHAT -->
+				<section>
+					<section>
+						<h2>Interface de chat</h2>
+					</section>
+					<!-- Mes conversations -->
+					<section data-auto-animate>
+						<div>
+							<img height="700" src="images/img-13.png" alt="">
+						</div>
+					</section>
+					<!-- Sélection du contact -->
+					<section>
+						<div>
+							<img height="700" src="images/img-17.png" alt="">
+						</div>
+					</section>
+					<!-- Mes conversations (encore) -->
+					<section>
+						<div>
+							<img height="700" src="images/img-13.png" alt="">
+						</div>
+					</section>
+					<!-- Création de la conversation -->
+					<section>
+						<div>
+							<img height="700" src="images/img-19.png" alt="">
+						</div>
+					</section>
+					<section data-auto-animate>
+						<div>
+							<img height="700" src="images/img-15.png" alt="">
+						</div>
+					</section>
+					<section data-auto-animate>
+						<div class="container-small-gap">
+							<div>
+								<img height="700" src="images/img-15.png" alt="">
+							</div>
+							<div class="right">
+								<p>Fonctionnalités :</p>
+								<ul>
+									<li class="fragment">Envoi de message</li>
+									<li class="fragment">Envoi de fichier</li>
+									<li class="fragment">...</li>
+								</ul>
+							</div>
+						</div>
+					</section>
+				</section>
+
+				<!-- PAGE DE CALENDRIER -->
+				<section>
+					<section>
+						<h2>Page de calendrier</h2>
+					</section>
+					<section>
+						<div>
+							<img src="images/img-21.png" alt="" height="700">
+						</div>
+					</section>
+					<section>
+						<div>
+							<img src="images/img-22.png" alt="" height="700">
+						</div>
+					</section>
+					<section>
+						<div>
+							<img src="images/img-26.png" alt="" height="700">
+						</div>
+					</section>
+					<section>
+						<div>
+							<img src="images/img-27.png" alt="" height="700">
+						</div>
+					</section>
+					<!-- Résumé fonctionnalités -->
+					<section data-auto-animate>
+						<div>
+							<img src="images/img-21.png" alt="" height="700">
+						</div>
+					</section>
+					<section data-auto-animate>
+						<div class="container-small-gap">
+							<div>
+								<img src="images/img-21.png" alt="" height="700">
+							</div>
+							<div>
+								<p>Fonctionnalités :</p>
+								<ul>
+									<li class="fragment">Visualisation des événements à venir et passés</li>
+									<li class="fragment">Ajout d'événements</li>
+									<li class="fragment">Édition d'événements</li>
+								</ul>
+							</div>
+
+						</div>
+					</section>
+				</section>
+
+				<!-- PAGE DE GESTION DES TÂCHES -->
+				<section>
+					<section>
+						<h2>Page de gestion des tâches</h2>
+					</section>
+					<section>
+						<div>
+							<img src="images/img-31.png" alt="" height="700">
+						</div>
+					</section>
+					<!-- Ajouter composants cartes en cours d'édition... -->
+
+					<section>
+						<div>
+							<img src="images/img-39.png" alt="" height="700">
+						</div>
+					</section>
+					<section>
+						<div>
+							<img src="images/img-41.png" alt="" height="700">
+						</div>
+					</section>
+					<section>
+						<div>
+							<img src="images/img-42.png" alt="" height="700">
+						</div>
+					</section>
+					<section>
+						<div>
+							<img src="images/img-43.png" alt="" height="700">
+						</div>
+					</section>
+					<!-- Résumé fonctionnalités -->
+					<section data-auto-animate>
+						<div>
+							<img src="images/img-31.png" alt="" height="700">
+						</div>
+					</section>
+					<section data-auto-animate>
+						<div class="container-small-gap">
+							<div>
+								<img src="images/img-31.png" alt="" height="700">
+							</div>
+							<div>
+								<p>Fonctionnalités :</p>
+								<ul>
+									<li class="fragment">Ajout de tâches</li>
+									<li class="fragment">Édition de taches</li>
+									<li class="fragment">Assignation de tâches</li>
+									<li class="fragment">...</li>
+								</ul>
+							</div>
+						</div>
+					</section>
+				</section>
+
+				<!-- PAGE DE PARAMÈTRES -->
+				<section>
+					<section>
+						<h2>Page de paramètres</h2>
+					</section>
+					<section>
+						<div>
+							<img src="images/img-47.png" alt="" height="700">
+						</div>
+					</section>
+				</section>
+
+				<!-- PAGE DES MENTIONS LÉGALES -->
+				<section>
+					<section>
+						<h2>Page des mentions légales</h2>
+					</section>
+					<section>
+						<div>
+							<img src="images/img-53.png" alt="" height="700">
+						</div>
+					</section>
+				</section>
+
+				<!-- FORMULAIRE DE CANDIDATURE -->
+				<section>
+					<section>
+						<h2>Formulaire de candidature</h2>
+					</section>
+					<section>
+						<div>
+							<img src="images/img-55.png" alt="" height="700">
+						</div>
+					</section>
 				</section>
 
 				<section id="diagrammes">
 					<h1>Diagrammes de cas d'usage</h1>
+				</section>
+
+				<section id="user-stories">
+					<h1>User stories</h1>
 				</section>
 
 				<section id="kanban">
