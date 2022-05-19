@@ -62,3 +62,15 @@ $heading4Size: 1.0em;
     display: flex;
     gap: 20px;
 }
+
+.container-medium-gap {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+
+.container-medium-gap-mobile {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}

@@ -366,3 +366,15 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   display: flex;
   gap: 20px;
 }
+
+.container-medium-gap {
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+}
+
+.container-medium-gap-mobile {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+}
